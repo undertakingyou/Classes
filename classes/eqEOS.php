@@ -61,7 +61,7 @@ if(!defined('DEBUG'))
 //We use a stack class so we don't have to keep track of indices for an array
 // May eventually update to use `array_pop()` `end()` and `array_push()` instead
 // of this class.
-require_once "stack.class.php";
+require_once "phpStack.php";
 
 
 /**
